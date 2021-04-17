@@ -1,0 +1,145 @@
+*{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+}
+body{
+        background-image: linear-gradient(to left ,#120a94 ,#2215ea);
+    
+}
+
+.welcometext{
+    color: white;
+    text-align: center;
+    margin: 40px 100px;
+    font-size: 50px;
+    padding: 10px;
+    animation-name: bordermove;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 20px;
+    border-width: 4px;
+
+
+    
+    
+}
+.welcometext:hover{
+    color: white;
+    animation: none;
+    border: 3px solid white;
+    transition: ease-in-out 1s;
+}
+.home-page-headings{color: white;
+    text-align: center;
+    margin: 10px 100px;
+    font-size: 50px;
+    padding: 10px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    border-radius: 20px;
+    border-width: 4px;
+    }
+.benifit-colum h1{
+    color: white;
+    
+}
+.benifit-colum{
+    width: 80%;
+    margin: auto;
+    
+}
+.benifit-colum-1{
+    width: 100%;
+    display: block;
+    padding-top: 5%;
+    padding-bottom: 20%;
+}
+.benifit-colum-2{
+    width: 100%;
+    display: block;
+    padding-top: 5%;
+    padding-bottom: 20%;
+}
+.benifit-colum-3{
+    width: 100%;
+    display: block;
+    padding-top: 5%;
+    padding-bottom: 20%;
+}
+.benifit-colum-4{
+    width: 100%;
+    display: block;
+    padding-top: 5%;
+    padding-bottom: 20%;
+}
+.benifit-colum-4{
+    width: 100%;
+    display: block;
+    padding-top: 25%;
+    padding-bottom: 20%;
+}
+.benifit-colum-2{
+    width: 100%;
+
+}
+.colum-image{
+    width: 50%;
+    margin: auto;
+}
+.colum-image img{
+    width: 35%;
+}
+.colum-text{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    font-size: 15px; 
+}
+.colum-text h1{
+    width: 45%;
+    font-size: 40px;
+     padding-top: 10%;
+    
+}
+.benifit-colum-1 img{
+    float: left;
+}
+.benifit-colum-1 h1{
+    float: right;
+}
+.benifit-colum-2 img{
+    float: right;
+}
+.benifit-colum-2 h1{
+    float: left;
+}
+.benifit-colum-3 img{
+    float: left;
+}
+.benifit-colum-3 h1{
+    float: right;
+}
+.benifit-colum-4 img{
+    float: right;
+}
+.benifit-colum-4 h1{
+  
+    float: left;
+    
+}
+.certificate-condition-para{
+color: white;
+    display: block;
+    
+    
+}
+@keyframes bordermove{
+    25%{opacity: 0.5;}
+    
+    100%{opacity: 1;}
+}
+
+

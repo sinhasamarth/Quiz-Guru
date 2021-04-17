@@ -1,0 +1,31 @@
+.tandc{
+    color: white;
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    
+}
+.tandc p{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+.tandc h2{
+    color: white;
+    font-size: 40px;
+}
+.tandc h3{
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+}
+.tandc p{
+    color: white;
+    font-size: 20px;
+}
+
+.tandc li{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}

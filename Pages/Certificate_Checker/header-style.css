@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.header{
+   
+    width: 100%;
+    height: 6em;
+    border-width: 7px;
+    font-family: sans-serif;
+    font-weight: 400;
+    background-image: linear-gradient(to left ,#120a94 ,#2215ea);
+   
+}
+.logo-main{
+    width: 140px;
+    float: left;
+    display: inline;
+    margin-top: 30px;    
+    padding-left: 60px;
+    padding-bottom: 10px;
+}
+.links{
+    background-color: aqua;
+    width: 95%;
+}
+.links a{
+    
+    color: white;   
+    float: right;
+    display: inline;
+    text-decoration: none;
+    font-size: 1.3em;
+    margin: 45px 20px;    
+    text-transform: uppercase;
+
+    
+}
+.links a:hover{
+    
+    padding: 10px;
+    border-bottom-width: 3px;
+    border-bottom-color: white;
+    border-bottom-style: solid ;
+    font-weight: bold;
+    font-size: 1.5em;
+    
+}

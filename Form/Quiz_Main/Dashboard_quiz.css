@@ -1,0 +1,73 @@
+*{
+font-family: 'H', 'Trebuchet MS', Helvetica;
+
+}h2{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    scroll-behavior: none;
+
+}
+
+.UserName{
+    font-size: 2em;
+    padding: 20px 30px;
+}
+
+.content_colum{
+    width: 100%;
+    padding-top: 30px;
+    scroll-behavior: none;
+    
+    
+}
+
+.Content_row_1{
+  background-color: white;
+     text-align: center;
+    width: 100%;
+    color: white;
+    
+}
+  .Content_row_1:hover{
+   
+      
+}
+    .row_1_colum_1{
+        display: inline-block;
+        margin: 30px;
+        padding: 10px;
+        height: 100px;
+        width: 20%;
+        background-color: #3742fa;
+        border-radius: 10px;
+        transition:  0.3s ease-in;
+        box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+
+    }
+
+.row_1_colum_1:hover{
+    border-left: dashed 10px white;
+    background-color: crimson;
+    font-size: 1.2em;
+    color: white;
+     
+}
+
+.top_1_row_1_num{
+    font-size: 40px;
+
+    color: white;
+   
+}
+
+

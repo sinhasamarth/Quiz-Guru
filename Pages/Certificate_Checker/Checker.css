@@ -1,0 +1,47 @@
+body{
+     background-image: linear-gradient(to left ,#120a94 ,#2215ea);
+}
+
+.Checker_main{
+     position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+    border-radius: 5px;
+   text-align: center;
+    width: 60%;
+     transition:  1s ease-in-out;
+}
+.Checker_main h1{
+    color: white;
+    font-size: 3em;
+     font-family: 'H', 'Trebuchet MS', Helvetica;
+}
+.box{
+    width: 100%;
+    color: white;
+    padding: 10px;
+    font-size: 2em;
+    height: 50px;
+    background-color: transparent;
+    outline: none;
+    border: 3px solid white ;
+    border-radius: 30px;
+    margin: 30px;
+}
+input:{
+    background-color: crimson;
+}
+button{
+    background-color: crimson;
+    border-color: crimson;
+    font-size: 2em;
+    padding: 20px;
+    width: auto;
+    color: white;
+    border-radius: 20px;
+}
+button:hover{
+     box-shadow: 0px 5px 15px 0px crimson;
+    font-size: 3em;
+}

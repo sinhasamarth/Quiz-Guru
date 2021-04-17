@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to left ,#120a94 ,#2215ea);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    transition: all 2s  ease-in-out !important;
+}
+input{
+    background-color: transparent;
+    color: darkblue;
+    font-family: sans-serif;
+    font-weight: bolder;
+    padding-bottom: 5px;
+ 
+}
+label{
+    color: darkblue;
+}
+a{
+    text-decoration:none;   
+}
+
+.image-form-login{
+     width: 410px;
+    height: 500px;
+    position: relative;
+    margin:6% auto;
+    background-color: white;
+    padding: 5px;
+    border-radius: 7px;
+    float: right;
+    right: 16%;
+    overflow: hidden;
+   
+
+}
+
+.image-form-login-1 img{
+    width: 400px;
+    height: 500px;
+    position: relative;
+   
+}
+.image-form-login-2 img{
+    width: 400px;
+    height: 500px;
+    top: 0px;
+    position: relative;
+    
+
+}
+.form-box{
+    width: 380px;
+    height: 500px;
+    position: relative;
+    margin: 6% auto;
+    background-color: white;
+    padding: 5px;
+    border-radius: 7px;
+    overflow: hidden;
+    float: left;
+    left: 25%;
+}
+.select-box{
+    width: 56.3%;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #6d3eff36;
+    border-radius: 30px;
+    text-align: center;
+    
+  
+}
+.select-button{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    font-size: 14px;
+    color: aliceblue;
+    font-weight: bolder;
+}
+#btn{
+    top:0;
+    left: 0;
+    position: absolute;
+    width: 103px;
+    height: 100%;
+    background-image: linear-gradient(to right ,#120a94 ,#2215ea);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.login-form
+{
+    top: 140px;
+    position: absolute;
+    transition: 0.5s;
+    width: 80%;
+
+}
+.login-form-fields{
+    width: 100%;
+    margin: 5px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 3px solid lightblue;
+    outline: none;
+    margin: 10px;
+
+}
+.login-form-fields-label{
+    padding-left: 10px;
+}
+.checkbox{
+    width: 10%;
+    left:0;
+    float: left;
+    cursor: pointer;
+}
+.reset-btn{
+    width: 30%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background-color: #120a94;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    color: aliceblue;
+    margin: 10px auto;
+}
+.submit-btn{
+
+    width: 90%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background-color: darkblue;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    color: aliceblue;
+    font-size: medium;
+    margin: 1em;
+
+}
+#sign-button{
+    color: #120a94;
+}
+.submit-btn:hover{
+
+    width: 90%;
+    background-position: right;
+     background-color:#2215ea;
+    font-size: large;
+    
+     box-shadow: 0 0 10x 9px #2215ea;
+}
+#Login-box
+{
+ left: 50px;
+}
+#Signup-box
+{
+    left: 450px;
+    
+}
